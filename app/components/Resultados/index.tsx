@@ -9,7 +9,7 @@ export default function Resultados() {
       <div className="hidden xl:flex w-[30rem] h-[30rem] 4xl:w-[40rem] 4xl:h-[40rem] border-[5rem] border-[#71CCDC] absolute bottom-[-15rem] left-[-18rem] 4xl:bottom-[-20rem] 4xl:left-[-22rem] rounded-[50%] z-10" />
 
       <div className="border-b-8 border-[#6FCADB] mt-5">
-        <h3 className="translate-y-3 text-xl xl:text-3xl font-bold">Veja alguns sorrisos transformados</h3>
+        <h3 className="translate-y-3 text-xl xl:text-3xl font-bold text-black">Veja alguns sorrisos transformados</h3>
       </div>
 
       <Carousel>

@@ -23,7 +23,7 @@ export default function Procedimentos(props: ProcedimentosProps) {
                   <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
                     <Image src={"/icone_logo.png"} width={"20"} height={"20"} alt={"inicio"} />
                   </div>
-                  <p className="font-normal text-1xl">{text}</p>
+                  <p className="font-normal text-1xl text-black">{text}</p>
                 </div>
               ))}
             </div>
@@ -34,7 +34,7 @@ export default function Procedimentos(props: ProcedimentosProps) {
                   <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
                     <Image src={"/icone_logo.png"} width={"20"} height={"20"} alt={"inicio"} />
                   </div>
-                  <p className="font-normal text-1xl">{text}</p>
+                  <p className="font-normal text-1xl text-black">{text}</p>
                 </div>
               ))}
             </div>
@@ -47,7 +47,7 @@ export default function Procedimentos(props: ProcedimentosProps) {
               <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
                 <Image src={"/icone_logo.png"} width={"15"} height={"15"} alt={"inicio"} />
               </div>
-              <p className="font-normal text-xs">Odontologia Preventiva</p>
+              <p className="font-normal text-xs text-black">Odontologia Preventiva</p>
             </div>
           </div>
 
@@ -56,34 +56,13 @@ export default function Procedimentos(props: ProcedimentosProps) {
               <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
                 <Image src={"/icone_logo.png"} width={"15"} height={"15"} alt={"inicio"} />
               </div>
-              <p className="font-normal text-xs">Facetas de Resina</p>
+              <p className="font-normal text-xs text-black">Facetas de Resina</p>
             </div>
             <div className="flex items-center justify-center px-2 gap-4 py-1 bg-white rounded overflow-hidden group cursor-pointer">
               <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
                 <Image src={"/icone_logo.png"} width={"15"} height={"15"} alt={"inicio"} />
               </div>
-              <p className="font-normal text-xs">Reabilitação Oral</p>
-            </div>
-          </div>
-
-          <div className="flex gap-2">
-            <div className="flex items-center justify-center px-2 gap-4 py-1 bg-white rounded overflow-hidden group cursor-pointer">
-              <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
-                <Image src={"/icone_logo.png"} width={"15"} height={"15"} alt={"inicio"} />
-              </div>
-              <p className="font-normal text-xs">Ortodontia</p>
-            </div>
-            <div className="flex items-center justify-center px-2 gap-4 py-1 bg-white rounded overflow-hidden group cursor-pointer">
-              <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
-                <Image src={"/icone_logo.png"} width={"15"} height={"15"} alt={"inicio"} />
-              </div>
-              <p className="font-normal text-xs">Cirurgia Oral Menor</p>
-            </div>
-            <div className="flex items-center justify-center px-2 gap-4 py-1 bg-white rounded overflow-hidden group cursor-pointer">
-              <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
-                <Image src={"/icone_logo.png"} width={"15"} height={"15"} alt={"inicio"} />
-              </div>
-              <p className="font-normal text-xs">Protocolo</p>
+              <p className="font-normal text-xs text-black">Reabilitação Oral</p>
             </div>
           </div>
 
@@ -92,13 +71,34 @@ export default function Procedimentos(props: ProcedimentosProps) {
               <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
                 <Image src={"/icone_logo.png"} width={"15"} height={"15"} alt={"inicio"} />
               </div>
-              <p className="font-normal text-xs">Edodontia (Canal)</p>
+              <p className="font-normal text-xs text-black">Ortodontia</p>
             </div>
             <div className="flex items-center justify-center px-2 gap-4 py-1 bg-white rounded overflow-hidden group cursor-pointer">
               <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
                 <Image src={"/icone_logo.png"} width={"15"} height={"15"} alt={"inicio"} />
               </div>
-              <p className="font-normal text-xs">Prótese Dentária</p>
+              <p className="font-normal text-xs text-black">Cirurgia Oral Menor</p>
+            </div>
+            <div className="flex items-center justify-center px-2 gap-4 py-1 bg-white rounded overflow-hidden group cursor-pointer">
+              <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
+                <Image src={"/icone_logo.png"} width={"15"} height={"15"} alt={"inicio"} />
+              </div>
+              <p className="font-normal text-xs text-black">Protocolo</p>
+            </div>
+          </div>
+
+          <div className="flex gap-2">
+            <div className="flex items-center justify-center px-2 gap-4 py-1 bg-white rounded overflow-hidden group cursor-pointer">
+              <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
+                <Image src={"/icone_logo.png"} width={"15"} height={"15"} alt={"inicio"} />
+              </div>
+              <p className="font-normal text-xs text-black">Edodontia (Canal)</p>
+            </div>
+            <div className="flex items-center justify-center px-2 gap-4 py-1 bg-white rounded overflow-hidden group cursor-pointer">
+              <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
+                <Image src={"/icone_logo.png"} width={"15"} height={"15"} alt={"inicio"} />
+              </div>
+              <p className="font-normal text-xs text-black">Prótese Dentária</p>
             </div>
           </div>
 
@@ -107,7 +107,7 @@ export default function Procedimentos(props: ProcedimentosProps) {
               <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
                 <Image src={"/icone_logo.png"} width={"15"} height={"15"} alt={"inicio"} />
               </div>
-              <p className="font-normal text-xs">Implantodontia</p>
+              <p className="font-normal text-xs text-black">Implantodontia</p>
             </div>
           </div>
         </div>
