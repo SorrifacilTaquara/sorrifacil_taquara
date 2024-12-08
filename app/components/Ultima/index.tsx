@@ -8,7 +8,7 @@ interface UltimaProps {
 
 export default function Ultima(props: UltimaProps) {
   return (
-    <section className="w-screen h-[20rem] 4xl:h-[calc(60rem+5vh)] relative">
+    <section className="w-screen h-[20rem] xl:h-[50rem] 4xl:h-[calc(60rem+5vh)] relative">
       {!props.isMobile ? (
         <Image src={"/ultima.png"} width={"1920"} height={"1200"} alt={"inicio"} className="w-full h-full" />
       ) : (
