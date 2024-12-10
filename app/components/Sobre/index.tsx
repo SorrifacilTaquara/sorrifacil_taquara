@@ -7,8 +7,7 @@ interface SobreProps {
 }
 export default function Sobre(props: SobreProps) {
   return (
-    // <section className="w-screen h-[55rem] relative">
-    <section className="w-screen h-[25rem] xl:h-[40rem] 4xl:h-[calc(50rem+5vh)] relative">
+    <section className="w-screen max-w-[1920px] h-[23rem] xl:h-[40rem] 4xl:h-[calc(50rem+5vh)] relative z-">
       {!props.isMobile ? (
         <Image src={"/test_2.png"} width={"1920"} height={"1200"} alt={"inicio"} className="w-full h-full" />
       ) : (
@@ -30,7 +29,7 @@ export default function Sobre(props: SobreProps) {
           atendimento personalizado.
         </p>
         <Link href={"https://wa.me/555198573027"}>
-          <p className="font-bold text-xl xl:text-3xl text-white mt-5 flex gap-2 justify-center items-center bg-[#4b8c9eb2] p-2 rounded-md">Agendar avalição gratuita</p>
+          <p className="font-bold text-xl xl:text-3xl text-white mt-5 flex gap-2 justify-center items-center bg-[#4b8c9eb2] p-2 rounded-md">Agendar avaliação gratuita</p>
         </Link>
       </div>
     </section>

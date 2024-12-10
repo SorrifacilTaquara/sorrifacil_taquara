@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Resultados() {
   return (
-    <section className="h-[55rem] xl:h-[40rem] bg-white flex flex-col items-center gap-10 relative">
+    <section className="h-[55rem] xl:h-[40rem] bg-white flex flex-col items-center gap-10 relative w-full max-w-[1920px]">
       <div className="hidden xl:flex w-[30rem] h-[30rem] 4xl:w-[40rem] 4xl:h-[40rem] border-[5rem] border-[#71CCDC] absolute bottom-[-15rem] left-[-18rem] 4xl:bottom-[-20rem] 4xl:left-[-22rem] rounded-[50%] z-10" />
 
       <div className="border-b-8 border-[#6FCADB] mt-5">
@@ -24,7 +24,7 @@ export default function Resultados() {
       </Carousel>
 
       <Link href={"https://wa.me/555198573027"}>
-        <p className="font-bold text-2xl xl:text-3xl text-white  flex gap-2 justify-center items-center bg-[#71CCDC] p-2 rounded-md">Agendar avalição gratuita</p>
+        <p className="font-bold text-2xl xl:text-3xl text-white  flex gap-2 justify-center items-center bg-[#71CCDC] p-2 rounded-md">Agendar avaliação gratuita</p>
       </Link>
     </section>
   );

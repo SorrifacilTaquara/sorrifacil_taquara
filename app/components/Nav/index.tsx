@@ -13,7 +13,7 @@ const Nav = () => {
   };
 
   return (
-    <header className="flex flex-row justify-center items-center h-16 w-full backdrop-blur bg-[#47619c5b]/5 fixed z-10">
+    <header className="flex flex-row justify-center items-center h-16 w-full max-w-[1920px] backdrop-blur bg-[#47619c5b]/5 fixed z-10">
       <nav className="w-[60%]">
         <ul className="flex flex-row justify-around ">
           <li className="text-white font-semibold cursor-pointer" onClick={() => scrollToSection("procedimentos")}>

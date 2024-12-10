@@ -8,7 +8,7 @@ interface UltimaProps {
 
 export default function Ultima(props: UltimaProps) {
   return (
-    <section className="w-screen h-[20rem] xl:h-[50rem] 4xl:h-[calc(60rem+5vh)] relative">
+    <section className="w-screen max-w-[1920px] h-[20rem] xl:h-[49rem] 4xl:h-[calc(63rem+5vh)] relative">
       {!props.isMobile ? (
         <Image src={"/ultima.png"} width={"1920"} height={"1200"} alt={"inicio"} className="w-full h-full" />
       ) : (
@@ -19,7 +19,7 @@ export default function Ultima(props: UltimaProps) {
           Pare de adiar seu sonho <br /> de ter um sorriso perfeito!
         </h3>
         <p className="w-[60%] xl:w-auto font-medium text-sm xl:text-1xl text-white ">
-          Entre em contato agora mesmo pelo WhatsApp <br />e agende sua consulta de avalição, estamos te esperando.
+          Entre em contato agora mesmo pelo WhatsApp <br />e agende sua consulta de avaliação, estamos te esperando.
         </p>
         <Link href={"https://wa.me/555198573027"}>
           <p className="font-bold text-md xl:text-2xl text-white mt-5 flex gap-2 justify-center items-center bg-[#4b8c9eb2] p-2 rounded-md">Agendar agora</p>

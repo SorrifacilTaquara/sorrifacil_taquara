@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#71CCDC] flex flex-col xl:flex-row items-center justify-around px-24 py-12 gap-3 xl:gap-0">
+    <footer className="bg-[#71CCDC] flex flex-col xl:flex-row items-center justify-around px-24 py-12 gap-3 xl:gap-0 w-full max-w-[1920px]">
       <Image src={"/logo.png"} alt={"logo"} width={200} height={100} className="mt-16 xl:mt-0" />
 
       <div className="flex flex-col items-center text-white">
@@ -13,7 +13,7 @@ export default function Footer() {
         <p className="text-center">R. Bento Gonçalves, 2450 - Centro,</p>
         <p>Taquara - RS, 95600-118</p>
       </div>
-      <div className="flex flex-col items-center text-white">
+      <div className="flex flex-col items-center text-white w-screen xl:w-auto">
         <h4 className="font-semibold">Contato</h4>
         <p>Fixo: (51) 3541-2551</p>
         <p>WhatsApp (51) 99857-3027</p>
