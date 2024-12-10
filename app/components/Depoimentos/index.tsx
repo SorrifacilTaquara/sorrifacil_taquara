@@ -21,12 +21,14 @@ export default function Depoimentos(props: DepoimentosProps) {
         </p>
         {!props.isMobile ? (
           <Link href={"https://wa.me/555198573027"} className="w-[18rem] xl:w-[30rem] flex">
-            <p className="font-bold text-xl xl:text-3xl text-[#4DB1C5] mt-5 flex gap-2 justify-center items-center bg-[#ffffff] p-2 rounded-md drop-shadow-lg">Agendar avaliação gratuita </p>
+            <p className="animate-pulse font-bold text-xl xl:text-3xl text-[#4DB1C5] mt-5 flex gap-2 justify-center items-center bg-[#ffffff] p-2 rounded-md drop-shadow-lg">
+              Agendar avaliação gratuita{" "}
+            </p>
           </Link>
         ) : (
           <>
             <Link href={"https://wa.me/555198573027"} className="w-[13rem] xl:w-[30rem] flex absolute top-[6rem] drop-shadow-lg z-10">
-              <p className="font-bold text-sm xl:text-3xl text-[#4DB1C5] mt-5 flex gap-2 justify-center items-center bg-[#ffffff] p-1 rounded-md ">Agendar avaliação gratuita </p>
+              <p className=" animate-pulse font-bold text-sm xl:text-3xl text-[#4DB1C5] mt-5 flex gap-2 justify-center items-center bg-[#ffffff] p-1 rounded-md ">Agendar avaliação gratuita </p>
             </Link>
           </>
         )}

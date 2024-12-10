@@ -24,7 +24,7 @@ export default function Resultados() {
       </Carousel>
 
       <Link href={"https://wa.me/555198573027"}>
-        <p className="font-bold text-2xl xl:text-3xl text-white  flex gap-2 justify-center items-center bg-[#71CCDC] p-2 rounded-md">Agendar avaliação gratuita</p>
+        <p className=" animate-pulse font-bold text-2xl xl:text-3xl text-white  flex gap-2 justify-center items-center bg-[#71CCDC] p-2 rounded-md">Agendar avaliação gratuita</p>
       </Link>
     </section>
   );

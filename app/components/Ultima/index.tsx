@@ -22,7 +22,7 @@ export default function Ultima(props: UltimaProps) {
           Entre em contato agora mesmo pelo WhatsApp <br />e agende sua consulta de avaliação, estamos te esperando.
         </p>
         <Link href={"https://wa.me/555198573027"}>
-          <p className="font-bold text-md xl:text-2xl text-white mt-5 flex gap-2 justify-center items-center bg-[#4b8c9eb2] p-2 rounded-md">Agendar agora</p>
+          <p className="animate-pulse font-bold text-md xl:text-2xl text-white mt-5 flex gap-2 justify-center items-center bg-[#4b8c9eb2] p-2 rounded-md">Agendar agora</p>
         </Link>
       </div>
     </section>

@@ -29,7 +29,9 @@ export default function Sobre(props: SobreProps) {
           atendimento personalizado.
         </p>
         <Link href={"https://wa.me/555198573027"}>
-          <p className="font-bold text-xl xl:text-3xl text-white mt-5 flex gap-2 justify-center items-center bg-[#4b8c9eb2] p-2 rounded-md">Agendar avaliação gratuita</p>
+          <p className="animate-pulse font-bold text-xs xl:text-3xl text-white mt-1 xl:mt-5 flex gap-2 justify-center items-center bg-[#4b8c9eb2] p-2 rounded-md relative overflow-hidden">
+            Agendar avaliação gratuita
+          </p>
         </Link>
       </div>
     </section>

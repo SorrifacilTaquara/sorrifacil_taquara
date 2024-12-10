@@ -21,7 +21,7 @@ export default function Inicio(props: InicioProps) {
         </p>
 
         <Link href={"https://wa.me/555198573027"}>
-          <p className="font-bold text-xs xl:text-3xl text-white mt-1 xl:mt-5 flex gap-2 justify-center items-center bg-[#4b8c9eb2] p-2 rounded-md">
+          <p className="animate-pulse font-bold text-xs xl:text-3xl text-white mt-1 xl:mt-5 flex gap-2 justify-center items-center bg-[#4b8c9eb2] p-2 rounded-md relative overflow-hidden">
             Agendar avaliação gratuita{" "}
             {!props.isMobile && (
               <span className="border border-white py-[0.20rem] px-[0.30rem] w-8 h-8 rounded-md flex items-center justify-center">
@@ -30,11 +30,24 @@ export default function Inicio(props: InicioProps) {
             )}
           </p>
         </Link>
+
+        {/* <Link href={"https://wa.me/555198573027"}>
+          <p className="font-bold text-xs xl:text-3xl text-white mt-1 xl:mt-5 flex gap-2 justify-center items-center bg-[#4b8c9eb2] p-2 rounded-md s">
+            Agendar avaliação gratuita{" "}
+            {!props.isMobile && (
+              <span className="border border-white py-[0.20rem] px-[0.30rem] w-8 h-8 rounded-md flex items-center justify-center">
+                <WhatsAppIcon sx={{ fontSize: 18 }} />
+              </span>
+            )}
+          </p>
+        </Link> */}
       </div>
       {!props.isMobile ? (
         <>
+          <Image src={"/logo.png"} width={"207"} height={"62"} alt={"inicio"} className="  absolute top-20 left-1/2 -translate-x-1/2" />
+
           {/* <Image src={"/inicio.png"} width={"1920"} height={"1240"} alt={"inicio"} className="w-[1920px] h-[1240px]  absolute bottom-0 right-0" /> */}
-          <Image src={"/sorri.png"} width={"6062"} height={"7920"} alt={"inicio"} className="w-[858px] h-[1080] 4xl:w-[1115px] h4xl:-[1404px] absolute bottom-0 right-0" />
+          <Image src={"/sorri.png"} width={"6062"} height={"7920"} alt={"inicio"} className="w-[858px] 4xl:w-[1115px]  absolute bottom-0 right-0" />
           <Image src={"/fundo.png"} width={"1920"} height={"1200"} alt={"inicio"} className="w-full h-full" />
         </>
       ) : (
