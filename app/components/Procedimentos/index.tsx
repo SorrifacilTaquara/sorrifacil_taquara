@@ -22,7 +22,7 @@ export default function Procedimentos(props: ProcedimentosProps) {
                 <div key={index} className="flex items-center justify-center px-2 gap-4 py-1 bg-white rounded overflow-hidden group cursor-default">
                   <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
                     <Image src={"/icone_logo.png"} width={"20"} height={"20"} alt={"inicio"} />
-                  </div>
+                  </div> 
                   <p className="font-normal text-1xl text-black">{text}</p>
                 </div>
               ))}

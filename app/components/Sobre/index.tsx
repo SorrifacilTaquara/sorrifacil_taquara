@@ -13,7 +13,7 @@ export default function Sobre(props: SobreProps) {
       ) : (
         <Image src={"/fotos_mobile/sobre.png"} width={"1920"} height={"1200"} alt={"inicio"} className="w-full h-full relative z-10" />
       )}
-      <div className="w-[20rem] h-[20rem] xl:w-[30rem] xl:h-[30rem] 4xl:w-[40rem] 4xl:h-[40rem] border-[3rem] xl:border-[5rem] border-white absolute bottom-[-8rem] right-[-14rem] xl:bottom-[-15rem] xl:right-[-20rem] 4xl:bottom-[-20rem] 4xl:right-[-22rem] rounded-[50%] z-50" />
+      <div className="w-[20rem] h-[20rem] xl:w-[30rem] xl:h-[30rem] 4xl:w-[40rem] 4xl:h-[40rem] border-[3rem] xl:border-[5rem] border-white absolute bottom-[-8rem] right-[-14rem] xl:bottom-[-15rem] xl:right-[-20rem] 4xl:bottom-[-20rem] 4xl:right-[-22rem] rounded-[50%] z-50 hidden xl:flex" />
 
       <div className="absolute  top-5 xl:top-[20%] right-[4%] xl:right-[8%] flex flex-col items-end z-10 xl:z-0 ">
         <h3 className="font-semibold text-2xl xl:text-4xl text-white mb-6 text-right">Sobre nós</h3>
