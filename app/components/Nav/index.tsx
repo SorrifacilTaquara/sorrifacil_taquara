@@ -22,6 +22,9 @@ const Nav = () => {
           <li className="text-white font-semibold cursor-pointer" onClick={() => scrollToSection("sobre")}>
             Sobre nós
           </li>
+          <li className="text-white font-semibold cursor-pointer" onClick={() => scrollToSection("depoimentos")}>
+            Depoimentos
+          </li>
           <li className="text-white font-semibold cursor-pointer" onClick={() => scrollToSection("resultados")}>
             Resultados
           </li>
