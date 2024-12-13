@@ -4,7 +4,7 @@ import { montserrat } from "./fonts/fonts";
 
 export const metadata: Metadata = {
   title: "Sorrifácil Taquara",
-  description: "",
+  description: "Sorrir é uma conquista",
 };
 
 export default function RootLayout({
