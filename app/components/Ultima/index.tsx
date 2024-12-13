@@ -11,8 +11,8 @@ export default function Ultima(props: UltimaProps) {
     <section className="w-screen max-w-[1920px] h-[20rem] xl:h-[49rem] 4xl:h-[calc(63rem+5vh)] relative">
       {!props.isMobile ? (
         <>
-          <Image src={"/bina.png"} width={"6062"} height={"7920"} alt={"inicio"} className="w-[600px] 4xl:w-[900px]  absolute bottom-0 right-0" />
-          <Image src={"/fundoVazio.jpg"} width={"1920"} height={"1200"} alt={"inicio"} className="w-full h-full" />
+          <Image src={"/bina.png"} width={"6062"} height={"7920"} alt={"inicio"} className="w-[600px] 4xl:w-[900px] absolute bottom-0 right-0" />
+          <Image src={"/fundo.png"} width={"1920"} height={"1200"} alt={"inicio"} className="w-full h-full" />
         </>
       ) : (
         <Image src={"/fotos_mobile/contato.png"} width={"1920"} height={"1200"} alt={"inicio"} className="w-full h-[20]" />

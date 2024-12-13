@@ -7,9 +7,9 @@ interface SobreProps {
 }
 export default function Sobre(props: SobreProps) {
   return (
-    <section className="w-screen max-w-[1920px] h-[23rem] xl:h-[40rem] 4xl:h-[calc(50rem+5vh)] relative z-">
+    <section className="w-screen max-w-[1920px] h-[23rem] xl:h-[55rem] 4xl:h-[75rem] relative z-">
       {!props.isMobile ? (
-        <Image src={"/test_2.png"} width={"1920"} height={"1200"} alt={"inicio"} className="w-full h-full" />
+        <Image src={"/about.png"} width={"1920"} height={"1200"} alt={"inicio"} className="w-full h-full" />
       ) : (
         <Image src={"/fotos_mobile/sobre.png"} width={"1920"} height={"1200"} alt={"inicio"} className="w-full h-full relative z-10" />
       )}
