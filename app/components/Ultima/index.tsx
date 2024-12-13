@@ -18,7 +18,7 @@ export default function Ultima(props: UltimaProps) {
         <Image src={"/fotos_mobile/contato.png"} width={"1920"} height={"1200"} alt={"inicio"} className="w-full h-[20]" />
       )}
       <div className="absolute top-6 xl:top-[30%] left-[18%] xl:left-[8%] flex flex-col items-start ">
-        <h3 className="font-semibold text-xl xl:text-4xl text-white mb-2">
+        <h3 className="font-semibold text-lg xl:text-4xl text-white mb-2">
           Pare de adiar seu sonho <br /> de ter um sorriso perfeito!
         </h3>
         <p className="w-[60%] xl:w-auto font-medium text-sm xl:text-1xl text-white ">
