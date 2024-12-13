@@ -47,7 +47,7 @@ export default function Inicio(props: InicioProps) {
           <Image src={"/logo.png"} width={"207"} height={"62"} alt={"inicio"} className="  absolute top-20 left-1/2 -translate-x-1/2" />
 
           {/* <Image src={"/inicio.png"} width={"1920"} height={"1240"} alt={"inicio"} className="w-[1920px] h-[1240px]  absolute bottom-0 right-0" /> */}
-          <Image src={"/sorri.png"} width={"6062"} height={"7920"} alt={"inicio"} className="w-[858px] 4xl:w-[1115px]  absolute bottom-0 right-0" />
+          <Image src={"/twopeople.png"} width={"6062"} height={"7920"} alt={"inicio"} className="w-[858px] 4xl:w-[1115px]  absolute bottom-0 right-0" />
           <Image src={"/fundo.png"} width={"1920"} height={"1200"} alt={"inicio"} className="w-full h-full" />
         </>
       ) : (
