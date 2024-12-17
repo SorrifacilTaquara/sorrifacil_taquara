@@ -18,7 +18,7 @@ export default function Procedimentos(props: ProcedimentosProps) {
         <div className="flex">
           <div className="flex flex-col gap-8">
             <div className="flex gap-10">
-              {["Odontologia Preventiva", "Implantadotia", "Ortodontia", "Protocolo", "Cirurgia Oral Menor"].map((text, index) => (
+              {["Odontologia Preventiva", "Implantodontia", "Ortodontia", "Protocolo", "Cirurgia Oral Menor"].map((text, index) => (
                 <div key={index} className="flex items-center justify-center px-2 gap-4 py-1 bg-white rounded overflow-hidden group cursor-default">
                   <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
                     <Image src={"/icone_logo.png"} width={"20"} height={"20"} alt={"inicio"} />
@@ -29,7 +29,7 @@ export default function Procedimentos(props: ProcedimentosProps) {
             </div>
 
             <div className="flex gap-10">
-              {["Facetas de Resina", "Reabilitação Oral", "Edondodontia (Canal)", "Prótese Dentária"].map((text, index) => (
+              {["Facetas de Resina", "Reabilitação Oral", "Endodontia (Canal)", "Prótese Dentária"].map((text, index) => (
                 <div key={index} className="flex items-center justify-center px-2 gap-4 py-1 bg-white rounded overflow-hidden group cursor-default">
                   <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
                     <Image src={"/icone_logo.png"} width={"20"} height={"20"} alt={"inicio"} />
@@ -92,7 +92,7 @@ export default function Procedimentos(props: ProcedimentosProps) {
               <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
                 <Image src={"/icone_logo.png"} width={"15"} height={"15"} alt={"inicio"} />
               </div>
-              <p className="font-normal text-xs text-black">Edodontia (Canal)</p>
+              <p className="font-normal text-xs text-black">Endodontia (Canal)</p>
             </div>
             <div className="flex items-center justify-center px-2 gap-2 py-1 bg-white rounded overflow-hidden group cursor-pointer">
               <div className="transition-transform duration-300 ease-in-out transform group-hover:-translate-y-1">
