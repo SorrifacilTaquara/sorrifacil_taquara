@@ -1,5 +1,6 @@
 import Link from "next/link";
 import VideoCarousel from "../ui/Carroussel";
+import { linkWhatsAppComMensagem } from "@/app/utils/helpers";
 
 interface DepoimentosProps {
   isMobile: boolean;
@@ -22,15 +23,23 @@ export default function Depoimentos(props: DepoimentosProps) {
           sobre a Sorrifácil Taquara.
         </p>
         {!props.isMobile ? (
-          <Link href={"https://wa.me/555198573027"} className="w-[18rem] xl:w-[30rem] flex">
+          <Link
+            href={linkWhatsAppComMensagem()}
+            className="w-[18rem] xl:w-[30rem] flex"
+          >
             <p className="animate-pulse font-bold text-xl xl:text-3xl text-[#4DB1C5] mt-5 flex gap-2 justify-center items-center bg-[#ffffff] p-2 rounded-md drop-shadow-lg">
               Agendar avaliação gratuita{" "}
             </p>
           </Link>
         ) : (
           <>
-            <Link href={"https://wa.me/555198573027"} className="w-[13rem] xl:w-[30rem] flex absolute top-[6rem] drop-shadow-lg z-50">
-              <p className=" animate-pulse font-bold text-sm xl:text-3xl text-[#4DB1C5] mt-5 flex gap-2 justify-center items-center bg-[#ffffff] p-1 rounded-md ">Agendar avaliação gratuita </p>
+            <Link
+              href={linkWhatsAppComMensagem()}
+              className="w-[13rem] xl:w-[30rem] flex absolute top-[6rem] drop-shadow-lg z-50"
+            >
+              <p className=" animate-pulse font-bold text-sm xl:text-3xl text-[#4DB1C5] mt-5 flex gap-2 justify-center items-center bg-[#ffffff] p-1 rounded-md ">
+                Agendar avaliação gratuita{" "}
+              </p>
             </Link>
           </>
         )}
