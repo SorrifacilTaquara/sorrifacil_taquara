@@ -6,6 +6,9 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Sorrifácil Taquara",
   description: "",
+  other: {
+    "facebook-domain-verification": "y1ftugbsjobyxg50g6hp2sflo6myu6",
+  },
 };
 
 export default function RootLayout({
